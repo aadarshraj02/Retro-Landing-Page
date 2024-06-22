@@ -272,4 +272,17 @@
   border-radius: 50%;
   background-color: #cac1b6;
   border: 1px solid #2a2a26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+#oval h1 {
+  font-size: 60px;
+  font-family: canopee;
+  height: 100%;
+  width: 100%;
+}
+#oval img {
+  height: 60px;
 }

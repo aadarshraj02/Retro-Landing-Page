@@ -14,11 +14,11 @@
 }
 
 #page1 {
-  height: 100vh;
+  min-height: 110vh;
   width: 100vw;
   background-color: #c4bcb3;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #nav {
   height: 80px;
@@ -152,7 +152,12 @@
   color: #c4bcb3;
   letter-spacing: -20px;
   font-family: canopee;
-  line-height: 380px;
+  line-height: 430px;
   width: 95%;
   margin-left: 2.5%;
+}
+#page2 {
+  height: 150vh;
+  width: 100%;
+  background-color: #c4bcb3;
 }

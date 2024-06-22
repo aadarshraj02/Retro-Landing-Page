@@ -8,6 +8,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+#main {
+  background-color: #333;
+  overflow-x: hidden;
+}
 
 #page1 {
   height: 100vh;

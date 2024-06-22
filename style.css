@@ -306,8 +306,19 @@
   width: 100%;
   background-color: #c4bcb3;
 }
-page5 h1 {
+#page5 h1 {
   font-size: 70px;
   font-family: domain;
   font-weight: 100;
+}
+#page5 span {
+  font-family: canopee;
+  background-color: #2f2f2f;
+  color: #c4bcb3;
+  padding: 0 10px;
+}
+#page6 {
+  height: 100px;
+  width: 100%;
+  background-color: #c4bcb3;
 }

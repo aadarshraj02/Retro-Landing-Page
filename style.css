@@ -264,4 +264,12 @@
   color: #2a2a26;
   font-size: 25px;
   line-height: 25px;
+  margin-bottom: 150px;
+}
+#oval {
+  height: 200px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #cac1b6;
+  border: 1px solid #2a2a26;
 }

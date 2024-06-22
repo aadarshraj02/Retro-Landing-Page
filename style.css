@@ -305,11 +305,25 @@
   padding: 20px 0;
   width: 100%;
   background-color: #c4bcb3;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#page5::-webkit-scrollbar {
+  display: none;
 }
 #page5 h1 {
   font-size: 70px;
   font-family: domain;
   font-weight: 100;
+  display: inline-block;
+  margin-right: 10px;
+  animation-name: scroll;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
 }
 #page5 span {
   font-family: canopee;
@@ -321,4 +335,17 @@
   height: 100px;
   width: 100%;
   background-color: #c4bcb3;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 15px));
+  }
+}
+
+#page5:hover h1 {
+  animation-play-state: paused;
 }

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: domain;
+  src: url(domain.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,4 +38,105 @@
   width: 30%;
   text-align: right;
   cursor: pointer;
+}
+
+#elems {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 60px;
+}
+#elem1,
+#elem3 {
+  width: 30%;
+  height: 100%;
+}
+#elem2 {
+  width: 30%;
+  height: 100%;
+  padding: 10px 40px;
+  text-align: center;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+#elem1 #image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+#elem3 #image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#image-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+#image-div:hover img {
+  scale: 1.1;
+}
+#elem1 h4 {
+  font-size: 24px;
+  margin: 18px 0;
+  font-family: canopee;
+}
+#elem1 span {
+  background-color: #b43b12;
+  color: #c4bcb3;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#elem1 p {
+  font-size: 20px;
+  word-spacing: 1.5px;
+  font-family: domain;
+  font-weight: 100;
+  color: #2a2a26;
+}
+#elem3 h4 {
+  font-size: 24px;
+  margin: 18px 0;
+  font-family: canopee;
+}
+#elem3 span {
+  background-color: #b43b12;
+  color: #c4bcb3;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#elem3 p {
+  font-size: 20px;
+  word-spacing: 1.5px;
+  font-family: domain;
+  font-weight: 100;
+  color: #2a2a26;
+}
+#elem2 h2 {
+  font-family: canopee;
+  font-size: 60px;
+  font-weight: 100;
+}
+#elem2 h3 {
+  font-family: domain;
+  font-weight: 100;
+  font-size: 40px;
+  color: #2a2a26;
+}
+#elem2 h6 {
+  font-size: 20px;
+  margin: 40px 0;
+  font-weight: 100;
+  font-family: domain;
 }

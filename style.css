@@ -157,7 +157,58 @@
   margin-left: 2.5%;
 }
 #page2 {
-  height: 150vh;
+  height: 120vh;
   width: 100%;
   background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 15px;
+}
+#page2-left {
+  height: 100%;
+  width: 30%;
+  padding-right: 30px;
+  border-right: 1px solid #333;
+}
+#page2-left h2 {
+  font-size: 70px;
+  font-family: canopee;
+  text-align: center;
+  font-weight: 100;
+  line-height: 80px;
+  color: #2a2a26;
+}
+#page2-left h2 span {
+  font-size: 100px;
+  font-family: canopee;
+  text-align: center;
+  font-weight: 700;
+  color: #2a2a26;
+}
+#page2-left img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-left p {
+  font-size: 25px;
+  font-family: domain;
+  color: #2a2a26;
+}
+#page2-right {
+  height: 100%;
+  width: 65%;
+  padding: 0 20px;
+}
+#page2-right img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-right h1 {
+  font-family: canopee;
+  font-size: 70px;
+  letter-spacing: -3px;
+  font-weight: 100;
 }

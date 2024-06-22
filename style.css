@@ -301,3 +301,13 @@
 #oval:hover h1 {
   transform: translateX(100%);
 }
+#page5 {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #c4bcb3;
+}
+page5 h1 {
+  font-size: 70px;
+  font-family: domain;
+  font-weight: 100;
+}
